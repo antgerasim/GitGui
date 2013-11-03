@@ -121,13 +121,8 @@ class DonFrame extends JFrame {
 
 		fileButton = new JButton("Open File");
 		fileButton.setBounds(375, 275, 100, 25);
-		// fileButton.addActionListener(new ActionHandler());
-		add(fileButton);
 
-		// bildAendern = new JButton("Bild Aendern");
-		// bildAendern.setBounds(375, 300, 100, 25);
-		// // bildAendern.addActionListener(new ActionHandler());
-		// add(bildAendern);
+		add(fileButton);
 
 		toglButton = new JToggleButton("StringAttributes");
 		toglButton.setBounds(200, 25, 150, 50);
@@ -311,44 +306,3 @@ class DonFrame extends JFrame {
 	}
 }
 
-// setSize(505, 450);
-// zeitButton.setBounds(25, 25, 150, 50);
-// logButton.setBounds(25, 75, 75, 50);
-// passButton.setBounds(100, 75, 75, 50);
-// bildButton.setBounds(375, 25, 100, 100);
-// redButton.setBounds(375, 125, 100, 25);
-// greenButton.setBounds(375, 150, 100, 25);
-// blueButton.setBounds(375, 175, 100, 25);
-// blackButton.setBounds(375, 200, 100, 25);
-// customButton.setBounds(375, 225, 100, 25);
-// defaultButton.setBounds(375, 250, 100, 25);
-// fileButton.setBounds(375, 300, 100, 25);
-// toglButton.setBounds(200, 25, 150, 50);
-// logField.setBounds(25, 125, 150, 25);
-// passField.setBounds(25, 150, 150, 25);
-// checkPanel.setBounds(200, 75, 150, 100);
-// fett.setBounds(0, 0, 125, 25);
-// kursiv.setBounds(0, 25, 125, 25);
-// untr.setBounds(0, 50, 125, 25);
-// radioPanel.setBounds(200, 200, 150, 100);
-// kirsche.setBounds(0, 0, 125, 25);
-// kuchen.setBounds(0, 25, 125, 25);
-// computer.setBounds(0, 50, 125, 25);
-// textLbl.setBounds(10, 150, 200, 200);
-// bildLbl.setBounds(375, 315, 100, 100);
-// dropDownMenue.setBounds(400, 425, 50, 25);
-// textAre.setBounds(10, 300, 350, 100);
-
-/*
- * Map<TextAttribute, Integer> fontAttributes = new HashMap<TextAttribute,
- * Integer>(); fontAttributes.put(TextAttribute.UNDERLINE,
- * TextAttribute.UNDERLINE_ON); fontAttributes.put(TextAttribute.SIZE, 40);
- * 
- * Font untr = getFont().deriveFont(fontAttributes); lbl.setFont(untr);
- * 
- * textAre = new JTextArea(
- * "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel tortor est, sit amet consequat ante. Pellentesque luctus neque at sapien adipiscing consequat. Sed mattis venenatis elit ac pellentesque. Sed ornare cursus ante, eu ullamcorper dolor pulvinar a. Fusce non nisl nisi. Nam nisi augue, dapibus nec mollis sed, placerat eget nisi. Phasellus a libero ac sapien egestas sagittis ac non ipsum. "
- * , 0, 0);// int rows, int coloumns active only when layoutmanager is selected!
- * 
- * repaint(); set at end of a constructor
- */
